@@ -3,8 +3,8 @@
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Luban < Formula
   desc "luban project generator"
-  homepage "https://github.com/thegenius/bullet"
-  url "https://github.com/thegenius/bullet/archive/v0.2.6.zip"
+  homepage "https://github.com/luban-project/luban"
+  url "https://github.com/luban-project/luban/archive/v0.2.6.zip"
   sha256 "cf753cafc180333882c9f72c22cc80a04878a4b5615c14740cfee84f67e0e315"
 
   # depends_on "cmake" => :build
@@ -12,7 +12,7 @@ class Luban < Formula
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
     # Remove unrecognized options if warned by configure
-    bin.install "distribute/darwin/0.2.5/luban"
+    bin.install "distribute/darwin/0.2.6/luban"
   end
 
   test do
