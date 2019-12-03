@@ -5,7 +5,7 @@ class Luban < Formula
   desc "luban project generator"
   homepage "https://github.com/luban-project/luban"
   url "https://github.com/luban-project/luban/archive/v0.2.6.zip"
-  sha256 "cf753cafc180333882c9f72c22cc80a04878a4b5615c14740cfee84f67e0e315"
+  sha256 "59d845abf93b8d89d3de4ff7779fa81b9789c158a373acf50495a01def9290e7"
 
   # depends_on "cmake" => :build
 
