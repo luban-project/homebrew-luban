@@ -1,14 +1,14 @@
 # Thegenius Luban
 
 ## How do I install these formulae?
-`brew install thegenius/luban/<formula>`
+`brew install luban-project/luban/luban`
 
-Or `brew tap thegenius/luban` and then `brew install <formula>`.
+Or `brew tap luban-project/luban` and then `brew install luban`.
 
 Or install via URL (which will not receive updates):
 
 ```
-brew install https://raw.githubusercontent.com/thegenius/homebrew-luban/master/Formula/<formula>.rb
+brew install https://raw.githubusercontent.com/luban-project/homebrew-luban/master/Formula/luban.rb
 ```
 
 ## Documentation
