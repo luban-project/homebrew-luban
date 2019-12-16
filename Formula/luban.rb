@@ -4,15 +4,15 @@
 class Luban < Formula
   desc "luban project generator"
   homepage "https://github.com/luban-project/luban"
-  url "https://github.com/luban-project/luban/archive/v0.2.7.zip"
-  sha256 "b6552553c95e9179063c7c8a54f153d7e031392e45b3d3046bf62381769de930"
+  url "https://github.com/luban-project/luban/archive/v0.3.0.zip"
+  sha256 "f990d9fcccc93bb3717c05b5b43b4471746888e3416745a74fa046f47adcb004"
 
   # depends_on "cmake" => :build
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
     # Remove unrecognized options if warned by configure
-    bin.install "distribute/darwin/0.2.7/luban"
+    bin.install "distribute/darwin/0.3.0/luban"
   end
 
   test do
